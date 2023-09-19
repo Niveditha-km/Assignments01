@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+
+  <p>Addition result: <span id="addResult"></span></p>
+  <p>Subtraction result: <span id="subtractResult"></span></p>
+  <p>Multiplication result: <span id="multiplyResult"></span></p>
+  <p>Division result: <span id="divideResult"></span></p>
+
+  <script src="scripts.js"></script>
+
+  <script>
+    // Example usage of functions from calculator.js
+    document.getElementById("addResult").textContent = add(5, 3);
+    document.getElementById("subtractResult").textContent = subtract(8, 2);
+    document.getElementById("multiplyResult").textContent = multiply(4, 7);
+    document.getElementById("divideResult").textContent = divide(10, 2);
+  </script>
+</body>
+</html>
